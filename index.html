@@ -6,16 +6,23 @@
     <meta charset="utf-8">
 
     <!-- Website title (on tab) -->
-    <title>Braille Prompter</title>
+    <title>Transcription Machine</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 
+    <!-- Animations -->
+    <!-- <link rel="stylesheet" href="animate.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+
     <!-- Scripts -->
     <script type="text/javascript" src="main.js"></script>
 
 </head>
+
+<!-- Body Section -->
 
 <body>
 
@@ -25,43 +32,47 @@
     <ul>
         <li>This is currently limited to one standard-sized page of braille.</li>
         <li>This will not prompt carriage returns automatically.</li>
-        <li>Capital letters, formatting, quotes, numbers are are in progress.</li>
     </ul>
-   
-</p>
+
+    </p>
 
     <hr>
     <div class="container">
         <div class="row text-center">
             <h2>Enter the text you want to convert to braille</h2>
             <div class="input-group">
-                <textarea maxlength="700" pattern="/^([^0-9]*)$/" id="textBox" name="textBox" class="form-control textBox" aria-label="With textarea" placeholder="" onkeyup="textCount()"></textarea>
+                <textarea maxlength="700" id="textBox" name="textBox" class="form-control textBox" aria-label="With textarea" placeholder="" onkeyup="textCount()"></textarea>
             </div>
             <div id="counter" class="w-100 text-right">
-            0/700
+                0/700
             </div>
         </div>
     </div>
-        <div class="controlrow">
-            <div class="controlrowleft">
-                <button type="submit" class="btn btn-success" onclick="play()">Play</button>
-                <button type="submit" class="btn btn-info" onclick="stop()">Pause</button>
-                <button type="submit" class="btn btn-warning" onclick="restart()">Restart</button>
-            </div>
-            <div class="controlrowright">
-                <input class="form-control flip floatright" type="range" min="100" max="2000" value="500" id="speed-slider" >
+    <div class="controlrow">
+        <div class="controlrowleft">
+            <button id="play" type="submit" class="btn btn-success" onclick="play(); active(this.id)">Play</button>
+            <button id="stop" type="submit" class="btn btn-info" onclick="stop(); active(this.id)">Pause</button>
+            <button id="restart" type="submit" class="btn btn-warning" onclick="restart(); active(this.id)">Restart</button>
+        </div>
+        <div class="controlrowright">
+            <div>
+                <input class="form-control flip floatright minitext" type="range" oninput="ageOutputId.value = (Math.round((60/((speed.value/500))))) +' letters per minute' "  min="100" max="2000" value="500" id="speed">
                 <label class="floatright" for="">Speed</label>
+            </div>
 
-            </div>
         </div>
-                    <br>
-            <br>    <br>
-        <div class="row">
-            <div class="mx-auto">
-                <img class="rounded mx-auto d-block" src="imgs/letter-default.svg" id="alphabeth-image" width="500" height="200">
-            </div>
+    </div>
+    <div class="speedOuput">
+        <output name="ageOutputName" id="ageOutputId"></output>
+    </div>
+    <br>
+    <br> <br>
+    <div class="row">
+        <div id="parent-img" class="mx-auto">
+            <img class="rounded mx-auto d-block" src="imgs/letter-default.svg" width="500" height="200">
         </div>
+    </div>
     </div>
 </body>
 
-</html
+</html>
