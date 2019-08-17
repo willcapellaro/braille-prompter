@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="500px" height="175px" viewBox="0 0 500 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="400px" height="140px" viewBox="0 0 400 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
     <title>letter-o</title>
     <desc>Created with Sketch.</desc>
     <g id="letter-o" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect fill="#FFFFFF" x="0" y="0" width="500" height="175"></rect>
-        <rect id="Rectangle-Copy-9" fill="#0091FF" x="7.5" y="108.75" width="46.25" height="21.25" rx="10.625"></rect>
-        <rect id="Rectangle-Copy-10" fill="#0091FF" x="58.75" y="108.75" width="47.5" height="33.75" rx="16.875"></rect>
-        <rect id="Rectangle-Copy-11" fill="#0091FF" x="111.25" y="108.75" width="46.25" height="33.75" rx="16.875"></rect>
-        <rect id="Rectangle-Copy-12" fill="#0091FF" x="162.5" y="108.75" width="47.5" height="33.75" rx="16.875"></rect>
-        <rect id="Rectangle-Copy-13" fill="#0091FF" x="215" y="108.75" width="72.5" height="33.75" rx="16.875"></rect>
-        <rect id="Rectangle-Copy-14" fill="#0091FF" x="292.5" y="108.75" width="46.25" height="33.75" rx="16.875"></rect>
-        <rect id="Rectangle-Copy-15" fill="#0091FF" x="343.75" y="108.75" width="46.25" height="33.75" rx="16.875"></rect>
-        <rect id="Rectangle-Copy-16" fill="#0091FF" x="395" y="108.75" width="46.25" height="33.75" rx="16.875"></rect>
-        <rect id="Rectangle-Copy-17" fill="#0091FF" x="446.25" y="108.75" width="47.5" height="21.25" rx="10.625"></rect>
-        <text id="o" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="90" font-weight="normal" fill="#0091FF">
-            <tspan x="222.819824" y="83.75">o</tspan>
+        <rect fill="#FFFFFF" x="0" y="0" width="400" height="140"></rect>
+        <rect id="Rectangle-Copy-9" fill="#0091FF" opacity="0.00999999978" x="6" y="87" width="37" height="17" rx="8.5"></rect>
+        <rect id="Rectangle-Copy-10" fill="#0091FF" x="47" y="87" width="38" height="27" rx="13.5"></rect>
+        <rect id="Rectangle-Copy-11" fill="#0091FF" opacity="0.00999999978" x="89" y="87" width="37" height="27" rx="13.5"></rect>
+        <rect id="Rectangle-Copy-12" fill="#0091FF" x="130" y="87" width="38" height="27" rx="13.5"></rect>
+        <rect id="Rectangle-Copy-13" fill="#0091FF" opacity="0.00999999978" x="172" y="87" width="58" height="27" rx="13.5"></rect>
+        <rect id="Rectangle-Copy-14" fill="#0091FF" opacity="0.00999999978" x="234" y="87" width="37" height="27" rx="13.5"></rect>
+        <rect id="Rectangle-Copy-15" fill="#0091FF" x="275" y="87" width="37" height="27" rx="13.5"></rect>
+        <rect id="Rectangle-Copy-16" fill="#0091FF" opacity="0.00999999978" x="316" y="87" width="37" height="27" rx="13.5"></rect>
+        <rect id="Rectangle-Copy-17" fill="#0091FF" opacity="0.00999999978" x="357" y="87" width="38" height="17" rx="8.5"></rect>
+        <text id="o" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="72" font-weight="normal" fill="#0091FF">
+            <tspan x="178.255859" y="67">o</tspan>
         </text>
     </g>
 </svg>
